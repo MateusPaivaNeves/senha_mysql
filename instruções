@@ -1,0 +1,10 @@
+abre o xampp / shell e insira o código -> mysqladmin.exe -u root password root //no lugar de "root" você pode colocar a senha de sua preferência.
++após realizar este procedimento seu phpmyadmin não irá abrir pois sua nova senha foi atualizada.
++para resolver este problema você apenas terá que mudar as linhas de código dentro da pasta phpMyadmin
++diretório -> Disco local/xampp/phpMyadmin 
++busque pelo arquivo config.inc
++faça a edição no código da senha do root para a qual você escolheu
+
+e esta pronto, você conseguiu mudar a sneha do seu phpMyadmin mantendo-se assim com uma segurança maior.
+
+
